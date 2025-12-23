@@ -27,7 +27,7 @@ void SceneGame::createEntities()
 {
     auto background = m_entities.addEntity("Background");
 
-    background->addComponent<CTransform>(Vec2f{ 0.f, 0.f }, 0.f, Vec2f{ 1.41f, 1.46f });
+    background->addComponent<CTransform>(Vec2f{ 0.f, 0.f }, 0.f, Vec2f{ 1.41f, 1.47f });
 
     background->addComponent<CSprite>(
         AssetManager::getInstance().getTexture(

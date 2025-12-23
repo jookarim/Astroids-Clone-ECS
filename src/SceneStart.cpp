@@ -16,7 +16,7 @@ void SceneStart::createEntities()
     auto background = m_entities.addEntity("Background");
 
     background->addComponent<CTransform>(
-        Vec2f{ 0.f, 0.f }, 0.f, Vec2f{ 1.41, 1.46f });
+        Vec2f{ 0.f, 0.f }, 0.f, Vec2f{ 1.41, 1.47f });
 
     background->addComponent<CSprite>(
         AssetManager::getInstance().getTexture("assets/images/background.png"));
