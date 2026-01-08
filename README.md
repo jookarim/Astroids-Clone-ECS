@@ -1,5 +1,5 @@
 
-# Astroids-Clone-ECS
+# ECS-Engine-Sandbox-SDL2-ImGui
 Astroids clone ECS with SDL2 and ImGui.
 =======
 # ECS Assignment – Entity Management with SDL2 & ImGui
